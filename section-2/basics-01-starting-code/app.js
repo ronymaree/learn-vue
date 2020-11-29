@@ -1,5 +1,5 @@
 const app = Vue.createApp({
-    data(){
+    data() {
         return {
             courseGoalA: 'Finish the course and learn Vue!',
             courseGoalB: 'Finish the course and learn React!',
