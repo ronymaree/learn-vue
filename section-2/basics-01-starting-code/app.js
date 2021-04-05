@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
-            courseGoalA: 'Helloo',
+            courseGoalA: '<h4>Helloo</h4>',
             courseGoalB: 'Yoyoyo',
             vueLink: 'https://www.google.com'
         }
@@ -18,7 +18,6 @@ const app = Vue.createApp({
             }
         }
     }
-
 });
 
 app.mount('#user-goal');
