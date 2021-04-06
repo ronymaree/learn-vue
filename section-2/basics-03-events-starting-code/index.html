@@ -18,9 +18,15 @@
     </header>
     <section id="events">
       <h2>Events in Action</h2>
-      <button>Add</button>
-      <button>Remove</button>
+      <button v-on:click="incrementNum(5)">Add</button>
+      <button v-on:click="decrementNum(5)">Remove</button>
       <p>Result: {{ counter }}</p>
+      <input type="text" v-on:input="setName" />
+      <p>Your Name: {{name}}</p>
+      <form v-on:submit.prevent="submitForm">
+        <input type="text">
+        <button>Sign Up</button>
+      </form>
     </section>
   </body>
 </html>
